@@ -1,11 +1,13 @@
 function Heading() {
   return (
-    <div className='text-center mb-16 sm:max-w-[32rem]'>
-      <h1 className='text-2xl sm:text-3xl'>Reliable, efficient delivery</h1>
-      <h2 className='text-2xl sm:text-3xl font-bold mb-4'>
+    <div className='text-center mb-20 sm:max-w-[32rem]'>
+      <h1 className='text-2xl sm:text-3xl md:text-4xl font-light'>
+        Reliable, efficient delivery
+      </h1>
+      <h2 className='text-2xl sm:text-3xl md:text-4xl font-semibold mb-6'>
         Powered by Technology
       </h2>
-      <p>
+      <p className='font-light'>
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is succesful
       </p>

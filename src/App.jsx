@@ -8,7 +8,7 @@ import iconTeam from '/icon-team-builder.svg';
 
 function App() {
   return (
-    <div className='my-20 mx-8 sm:flex sm:flex-col sm:justify-center sm:items-center'>
+    <div className='my-24 mx-8 sm:flex sm:flex-col sm:justify-center sm:items-center'>
       <Heading />
 
       <div className='lg:grid lg:grid-cols-3 lg:grid-rows-4 lg:gap-x-8 lg:gap-y-2 lg:max-w-5xl'>

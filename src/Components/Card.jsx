@@ -4,8 +4,8 @@ function Card({ icon, description, borderColor, grid, children }) {
     <div
       className={`${borderColor} ${grid} border-t-4 rounded-md p-6 flex flex-col mb-6 shadow-xl`}
     >
-      <h1 className='text-xl font-bold mb-1'>{children}</h1>
-      <p className='mb-6'>{description}</p>
+      <h1 className='text-xl font-semibold mb-1'>{children}</h1>
+      <p className='mb-6 font-light'>{description}</p>
       <img src={icon} alt={icon} className='w-min self-end' />
     </div>
   );
