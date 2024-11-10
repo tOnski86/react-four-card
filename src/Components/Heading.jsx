@@ -1,7 +1,7 @@
 function Heading() {
   return (
     <div className='text-center mb-20 sm:max-w-[32rem]'>
-      <h1 className='text-2xl sm:text-3xl md:text-4xl font-light'>
+      <h1 className='text-2xl sm:text-3xl md:text-4xl font-light mb-2'>
         Reliable, efficient delivery
       </h1>
       <h2 className='text-2xl sm:text-3xl md:text-4xl font-semibold mb-6'>
